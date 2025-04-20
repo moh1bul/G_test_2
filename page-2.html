@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 2 - Questions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Page 2 - Questions</h1>
+    <div id="timer">Time Left: 06:00</div>
+    <div id="instructions">
+      <p>Answer the following 5 questions. You have 6 minutes.</p>
+    </div>
+    <form id="quiz-form">
+      <!-- Question 1 -->
+      <div class="question">
+        <p>1. They drove ___ the bridge to cross the river.</p>
+        <label><input type="radio" name="q1" value="A"> across</label>
+        <label><input type="radio" name="q1" value="B"> between</label>
+        <label><input type="radio" name="q1" value="C"> under</label>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question">
+        <p>2. The conference will take place ___ the 15th of March.</p>
+        <label><input type="radio" name="q2" value="A"> in</label>
+        <label><input type="radio" name="q2" value="B"> at</label>
+        <label><input type="radio" name="q2" value="C"> on</label>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question">
+        <p>3. Despite the heavy rain, the hikers continued their journey ___ the mountain.</p>
+        <label><input type="radio" name="q3" value="A"> up</label>
+        <label><input type="radio" name="q3" value="B"> along</label>
+        <label><input type="radio" name="q3" value="C"> onto</label>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="question">
+        <p>4. The new café is located ___ the intersection of Elm Street and 5th Avenue.</p>
+        <label><input type="radio" name="q4" value="A"> at</label>
+        <label><input type="radio" name="q4" value="B"> in</label>
+        <label><input type="radio" name="q4" value="C"> on</label>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="question">
+        <p>5. The research paper must be submitted ___ the end of this week.</p>
+        <label><input type="radio" name="q5" value="A"> for</label>
+        <label><input type="radio" name="q5" value="B"> until</label>
+        <label><input type="radio" name="q5" value="C"> by</label>
+      </div>
+
+      <!-- Next Button -->
+      <button type="button" onclick="nextPage()">Next</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
